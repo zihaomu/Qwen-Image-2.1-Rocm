@@ -1,0 +1,276 @@
+{
+  "binary_frames": {
+    "bytes": 0,
+    "count": 0
+  },
+  "cached_nodes": [],
+  "end": "2026-09-24T07:59:58.560003Z",
+  "error": null,
+  "events": [
+    {
+      "time_ns": 6446044,
+      "type": "execution_start"
+    },
+    {
+      "time_ns": 8027333,
+      "type": "execution_cached"
+    },
+    {
+      "time_ns": 8833907,
+      "type": "executing"
+    },
+    {
+      "time_ns": 331458672,
+      "type": "executing"
+    },
+    {
+      "time_ns": 628513620,
+      "type": "executing"
+    },
+    {
+      "time_ns": 8375377876,
+      "type": "executing"
+    },
+    {
+      "time_ns": 8408388659,
+      "type": "executing"
+    },
+    {
+      "time_ns": 8408745507,
+      "type": "executing"
+    },
+    {
+      "time_ns": 8410326275,
+      "type": "executing"
+    },
+    {
+      "time_ns": 12436131396,
+      "type": "progress"
+    },
+    {
+      "time_ns": 13416362407,
+      "type": "progress"
+    },
+    {
+      "time_ns": 14353094151,
+      "type": "progress"
+    },
+    {
+      "time_ns": 15290293352,
+      "type": "progress"
+    },
+    {
+      "time_ns": 16227473644,
+      "type": "progress"
+    },
+    {
+      "time_ns": 17164451527,
+      "type": "progress"
+    },
+    {
+      "time_ns": 18101522030,
+      "type": "progress"
+    },
+    {
+      "time_ns": 19039658076,
+      "type": "progress"
+    },
+    {
+      "time_ns": 19975754286,
+      "type": "progress"
+    },
+    {
+      "time_ns": 20914931495,
+      "type": "progress"
+    },
+    {
+      "time_ns": 21850923278,
+      "type": "progress"
+    },
+    {
+      "time_ns": 22789235623,
+      "type": "progress"
+    },
+    {
+      "time_ns": 23727648419,
+      "type": "progress"
+    },
+    {
+      "time_ns": 24667005628,
+      "type": "progress"
+    },
+    {
+      "time_ns": 25603681997,
+      "type": "progress"
+    },
+    {
+      "time_ns": 26542068594,
+      "type": "progress"
+    },
+    {
+      "time_ns": 27479478098,
+      "type": "progress"
+    },
+    {
+      "time_ns": 28417034552,
+      "type": "progress"
+    },
+    {
+      "time_ns": 29355881496,
+      "type": "progress"
+    },
+    {
+      "time_ns": 30294990560,
+      "type": "progress"
+    },
+    {
+      "time_ns": 31233110330,
+      "type": "progress"
+    },
+    {
+      "time_ns": 32181286129,
+      "type": "progress"
+    },
+    {
+      "time_ns": 33128714704,
+      "type": "progress"
+    },
+    {
+      "time_ns": 34069013700,
+      "type": "progress"
+    },
+    {
+      "time_ns": 35007739238,
+      "type": "progress"
+    },
+    {
+      "time_ns": 35928017408,
+      "type": "executing"
+    },
+    {
+      "time_ns": 37135441843,
+      "type": "executing"
+    },
+    {
+      "time_ns": 37386806113,
+      "type": "executed"
+    },
+    {
+      "time_ns": 37387271129,
+      "type": "execution_success"
+    }
+  ],
+  "history_status": {
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "aa9d663d-1d3e-4b21-9e87-176f057311eb",
+          "timestamp": 1790236760871
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "aa9d663d-1d3e-4b21-9e87-176f057311eb",
+          "timestamp": 1790236760874
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "aa9d663d-1d3e-4b21-9e87-176f057311eb",
+          "timestamp": 1790236798253
+        }
+      ]
+    ],
+    "status_str": "success"
+  },
+  "metadata": {
+    "prompt_suffix_length": 0,
+    "warmup": true
+  },
+  "new_prompt_id": "aa9d663d-1d3e-4b21-9e87-176f057311eb",
+  "node_intervals": [
+    {
+      "class_type": "VAELoader",
+      "duration_ms": 322.624765,
+      "end_ns": 1742698280888418,
+      "node": "459:454"
+    },
+    {
+      "class_type": "CLIPLoader",
+      "duration_ms": 297.054948,
+      "end_ns": 1742698577943366,
+      "node": "459:453"
+    },
+    {
+      "class_type": "TextEncodeQwenImage21",
+      "duration_ms": 7746.864256,
+      "end_ns": 1742706324807622,
+      "node": "459:452"
+    },
+    {
+      "class_type": "UNETLoader",
+      "duration_ms": 33.010783,
+      "end_ns": 1742706357818405,
+      "node": "459:451"
+    },
+    {
+      "class_type": "ResolutionSelector",
+      "duration_ms": 0.356848,
+      "end_ns": 1742706358175253,
+      "node": "13"
+    },
+    {
+      "class_type": "EmptyLatentImage",
+      "duration_ms": 1.580768,
+      "end_ns": 1742706359756021,
+      "node": "459:456"
+    },
+    {
+      "class_type": "KSampler",
+      "duration_ms": 27517.691133,
+      "end_ns": 1742733877447154,
+      "node": "459:458"
+    },
+    {
+      "class_type": "VAEDecode",
+      "duration_ms": 1207.424435,
+      "end_ns": 1742735084871589,
+      "node": "459:457"
+    },
+    {
+      "class_type": "SaveImageAdvanced",
+      "duration_ms": 251.837106,
+      "end_ns": 1742735336708695,
+      "node": "461"
+    }
+  ],
+  "outputs": [
+    "warm-seed43_00001.png"
+  ],
+  "prefix": "qwen_image_2_1_rocm_fast/warm-seed43",
+  "progress_summary": {
+    "first": [
+      1,
+      25
+    ],
+    "last": [
+      25,
+      25
+    ],
+    "node": "459:458",
+    "per_step_intervals_ms_median": 938.2241955,
+    "per_step_intervals_ms_p95": 948.0637154,
+    "samples": 25
+  },
+  "schema_version": 1,
+  "seed": 43,
+  "source_graph_file": "/opt/qwen/workflows/qwen_image_2_1_t2i_api.json",
+  "source_prompt_id": null,
+  "start": "2026-09-24T07:59:20.866699Z",
+  "wall_ms": 37693.311058
+}

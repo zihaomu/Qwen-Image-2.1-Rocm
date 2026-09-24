@@ -1,0 +1,198 @@
+{
+  "backend_warm_current_delta": {
+    "candidate": {
+      "delta": 832,
+      "fallback_delta": 0,
+      "selected_1664": 1664,
+      "selected_832": 832
+    },
+    "reference": {
+      "delta": 832,
+      "fallback_delta": 0,
+      "selected_1664": 1664,
+      "selected_832": 832
+    }
+  },
+  "candidate": {
+    "backend_sha256": "b4da64618aef59b81c0127c48cc4c69d59af25778c77c4526c6207b030b7d6f4",
+    "capture_sha256": "66b8c91a7e5cc00903533a456fae58c7fe8cb883f80dc40498e58c3fd35b3745",
+    "container_inspect": "not_found_in_workspace",
+    "endpoint_snapshot": "not_found_in_workspace",
+    "measure": "candidate_measure_seed44.json"
+  },
+  "capture": {
+    "candidate_current": 832,
+    "errors": 0,
+    "reference_current": 832
+  },
+  "environment": {
+    "provenance_sha256": {
+      ".github/skills/asmevo/scripts/profile.py": "4d021a9c1e77617116f08e9ecfe269473fba2ddcd82ccac9b8dea55924004ecd",
+      "kernel_speed_up/asmevo_runs/p2_rms_rope_t32_v2/run/attempts/rms-rope-wave32-shuffle/artifacts/candidate.artifact": "7aa1fdb3c724fe8cebc789e3d4b9d4fb3a58897ba63fe83ebf0af3ea280b978a",
+      "kernel_speed_up/start_capture.sh": "b7aeab78092bea2c4c650e25d7124f8dd507a4b7b46b572a14a3b97985d84edc",
+      "profiles/operator-profile/run_profiled_comfyui.py": "08bbef2bd57508582033b7640172224d730b461b0e85398462c3b5ab58a5045b",
+      "scripts/profile_comfyui_nodes.py": "51c75b5834cae792087d48fd0c479cbd59e3f907bfc00cab721ad31b3227b68d",
+      "scripts/start_comfyui.sh": "efc61ec64b2d3da4e302376c49983a7caec70e8b36414e636cacce60465c9d0c",
+      "vendor/ComfyUI/tests/inference/graphs/default_graph_sdxl1_0.json": "44e4b770acde40ce6cdc99f3e7377758f00be731357391fc7413ae996b1e96b5"
+    },
+    "runtime_dir": "kernel_speed_up/runtime",
+    "workspace": "/nvme0/data/zihaomu/bigssd/qwen-image-2.1-workspace"
+  },
+  "gates": {
+    "E2E_fidelity": "observed_not_gated",
+    "capture": true,
+    "import": true,
+    "micro": true,
+    "perf": true,
+    "runtime": true,
+    "valid_image": true
+  },
+  "generatedUTC": "2026-09-23T12:33:33.410509+00:00",
+  "graph": {
+    "file": "kernel_speed_up/runtime/api_graphs/t2i_seed44.json",
+    "prompt_ids": {
+      "candidate": "b1863f4e-1a47-463f-9ee1-9bb8af8e7280",
+      "reference": "6ebf1b6f-3f3b-4bb2-8162-644517bbc151"
+    },
+    "seed": 44,
+    "steps": 25
+  },
+  "image_comparison": {
+    "IMAGE_AB": "PASS",
+    "candidate": {
+      "array_shape": [
+        1024,
+        1024,
+        4
+      ],
+      "bytes": 2224889,
+      "finite": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "non_single_color": true,
+      "path": "/inputs/candidate.png",
+      "sha256": "0b4ef0e9cc184f29e60fad6747c2aaf713e60dff34f1195c5683c4a89c31d902",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "gate": "PASS",
+    "generatedUTC": "2026-09-23T12:33:33.410245+00:00",
+    "metrics": {
+      "cosine": 0.9940787057610269,
+      "identical_pixels_fraction": 0.13433361053466797,
+      "mae": 4.910419782002767,
+      "max_abs": 255.0,
+      "psnr": 24.923441882764507,
+      "rmse": 14.466653725549444
+    },
+    "reference": {
+      "array_shape": [
+        1024,
+        1024,
+        4
+      ],
+      "bytes": 2239948,
+      "finite": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "non_single_color": true,
+      "path": "/inputs/reference.png",
+      "sha256": "e370c74216e58aefc683bf295637c9bcaff59b1764b87679614d5519e41b036d",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "schema": "image_comparison.v1",
+    "shape_1024x1024": true,
+    "valid_image": true,
+    "verification": {
+      "finite": false,
+      "non_single_color": null,
+      "pillow_verify": false
+    }
+  },
+  "image_metrics": {
+    "candidate_path": "/nvme0/data/zihaomu/bigssd/qwen-image-2.1-workspace/kernel_speed_up/runtime/comfyui/output/integration_20260923/candidate_measure_seed44_00001.png",
+    "error": "No module named 'PIL'",
+    "reference_path": "/nvme0/data/zihaomu/bigssd/qwen-image-2.1-workspace/kernel_speed_up/runtime/instances/reference-v2-20260923/output/integration_20260923/reference_measure_seed44_00001.png"
+  },
+  "micro_oracle": {
+    "PASS": true,
+    "evidence_paths": [],
+    "threshold": "document-defined; no local oracle file"
+  },
+  "node_table": [
+    {
+      "candidate_ms": 23600.188111,
+      "class": "KSampler",
+      "node": "459:458",
+      "reference_ms": 31302.259783,
+      "speedup": 1.3263563678295462
+    },
+    {
+      "candidate_ms": 878.291098,
+      "class": "VAEDecode",
+      "node": "459:457",
+      "reference_ms": 872.818189
+    },
+    {
+      "candidate_ms": 257.767607,
+      "class": "SaveImageAdvanced",
+      "node": "461",
+      "reference_ms": 259.977765
+    }
+  ],
+  "overall": "PASS",
+  "progress": {
+    "candidate": {
+      "first": [
+        1,
+        25
+      ],
+      "last": [
+        25,
+        25
+      ],
+      "node": "459:458",
+      "per_step_intervals_ms_median": 935.7049669999999,
+      "per_step_intervals_ms_p95": 964.1217917,
+      "samples": 25
+    },
+    "reference": {
+      "first": [
+        1,
+        25
+      ],
+      "last": [
+        25,
+        25
+      ],
+      "node": "459:458",
+      "per_step_intervals_ms_median": 1247.6521200000002,
+      "per_step_intervals_ms_p95": 1250.5753441000002,
+      "samples": 25
+    }
+  },
+  "reference": {
+    "backend_sha256": "e7f204c297910b65707274ea2517e2e11512334ebd3ab1e81626f995e569c133",
+    "capture_sha256": "fa1d5654eb7a12ba200dc9745482126955e5401ac453168edb3aeec4baa5f146",
+    "container_inspect": "not_found_in_workspace",
+    "endpoint_snapshot": "not_found_in_workspace",
+    "measure": "reference_measure_seed44.json"
+  },
+  "schema": "ab_summary.v1",
+  "version": 1,
+  "wall_ms": {
+    "candidate": 24981.79008,
+    "reference": 32718.921377,
+    "savings_ms": 7737.131297,
+    "speedup": 1.30971084426789
+  },
+  "warm_wall_ms": {
+    "candidate": 40249.082826,
+    "reference": 48360.148611
+  }
+}

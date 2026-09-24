@@ -1,0 +1,230 @@
+{
+  "binary_frames": {
+    "bytes": 0,
+    "count": 0
+  },
+  "cached_nodes": [
+    "13",
+    "459:451",
+    "459:452",
+    "459:453",
+    "459:454",
+    "459:456"
+  ],
+  "end": "2026-09-23T09:58:47.224296Z",
+  "error": null,
+  "events": [
+    {
+      "time_ns": 5980424,
+      "type": "execution_start"
+    },
+    {
+      "time_ns": 6092003,
+      "type": "execution_cached"
+    },
+    {
+      "time_ns": 6174693,
+      "type": "executing"
+    },
+    {
+      "time_ns": 149982127,
+      "type": "progress"
+    },
+    {
+      "time_ns": 1418344727,
+      "type": "progress"
+    },
+    {
+      "time_ns": 2664785859,
+      "type": "progress"
+    },
+    {
+      "time_ns": 3911433840,
+      "type": "progress"
+    },
+    {
+      "time_ns": 5157629553,
+      "type": "progress"
+    },
+    {
+      "time_ns": 6402996560,
+      "type": "progress"
+    },
+    {
+      "time_ns": 7649795298,
+      "type": "progress"
+    },
+    {
+      "time_ns": 8896056579,
+      "type": "progress"
+    },
+    {
+      "time_ns": 10142494608,
+      "type": "progress"
+    },
+    {
+      "time_ns": 11390477288,
+      "type": "progress"
+    },
+    {
+      "time_ns": 12635750954,
+      "type": "progress"
+    },
+    {
+      "time_ns": 13882397340,
+      "type": "progress"
+    },
+    {
+      "time_ns": 15130482687,
+      "type": "progress"
+    },
+    {
+      "time_ns": 16376464007,
+      "type": "progress"
+    },
+    {
+      "time_ns": 17625712557,
+      "type": "progress"
+    },
+    {
+      "time_ns": 18871652936,
+      "type": "progress"
+    },
+    {
+      "time_ns": 20118974496,
+      "type": "progress"
+    },
+    {
+      "time_ns": 21367635667,
+      "type": "progress"
+    },
+    {
+      "time_ns": 22616923004,
+      "type": "progress"
+    },
+    {
+      "time_ns": 23866580399,
+      "type": "progress"
+    },
+    {
+      "time_ns": 25115034520,
+      "type": "progress"
+    },
+    {
+      "time_ns": 26364566213,
+      "type": "progress"
+    },
+    {
+      "time_ns": 27615253590,
+      "type": "progress"
+    },
+    {
+      "time_ns": 28865194081,
+      "type": "progress"
+    },
+    {
+      "time_ns": 30114538415,
+      "type": "progress"
+    },
+    {
+      "time_ns": 31308434476,
+      "type": "executing"
+    },
+    {
+      "time_ns": 32181252665,
+      "type": "executing"
+    },
+    {
+      "time_ns": 32440864562,
+      "type": "executed"
+    },
+    {
+      "time_ns": 32441219770,
+      "type": "execution_success"
+    }
+  ],
+  "history_status": {
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "6ebf1b6f-3f3b-4bb2-8162-644517bbc151",
+          "timestamp": 1790157494510
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "13",
+            "459:451",
+            "459:452",
+            "459:453",
+            "459:454",
+            "459:456"
+          ],
+          "prompt_id": "6ebf1b6f-3f3b-4bb2-8162-644517bbc151",
+          "timestamp": 1790157494511
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "6ebf1b6f-3f3b-4bb2-8162-644517bbc151",
+          "timestamp": 1790157526946
+        }
+      ]
+    ],
+    "status_str": "success"
+  },
+  "metadata": {
+    "prompt_suffix_length": 0,
+    "warmup": false
+  },
+  "new_prompt_id": "6ebf1b6f-3f3b-4bb2-8162-644517bbc151",
+  "node_intervals": [
+    {
+      "class_type": "KSampler",
+      "duration_ms": 31302.259783,
+      "end_ns": 1663462896543700,
+      "node": "459:458"
+    },
+    {
+      "class_type": "VAEDecode",
+      "duration_ms": 872.818189,
+      "end_ns": 1663463769361889,
+      "node": "459:457"
+    },
+    {
+      "class_type": "SaveImageAdvanced",
+      "duration_ms": 259.977765,
+      "end_ns": 1663464029339654,
+      "node": "461"
+    }
+  ],
+  "outputs": [
+    "reference_measure_seed44_00001.png"
+  ],
+  "prefix": "integration_20260923/reference_measure_seed44",
+  "progress_summary": {
+    "first": [
+      1,
+      25
+    ],
+    "last": [
+      25,
+      25
+    ],
+    "node": "459:458",
+    "per_step_intervals_ms_median": 1247.6521200000002,
+    "per_step_intervals_ms_p95": 1250.5753441000002,
+    "samples": 25
+  },
+  "schema_version": 1,
+  "seed": 44,
+  "source_graph_file": "kernel_speed_up/runtime/api_graphs/t2i_seed44.json",
+  "source_prompt_id": null,
+  "start": "2026-09-23T09:58:14.505380Z",
+  "wall_ms": 32718.921377
+}

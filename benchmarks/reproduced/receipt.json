@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-24",
+  "device": {
+    "container_logical_index": 0,
+    "gfx_arch": "gfx1100",
+    "name": "AMD Radeon PRO W7900D",
+    "physical_index": 6,
+    "vram_bytes": 51522830336
+  },
+  "image": {
+    "base_digest": "sha256:4449f856653602317e4101a76fce599c7fcd58ccec2e539951fce5f73083179e",
+    "id": "sha256:3698286daa306924b4fbbc2e0e896355841cadf8e8fe17fab835f99663ab1018",
+    "size_bytes": 11131598624,
+    "tag": "qwen-image-2.1-rocm:w7900d-fast"
+  },
+  "method": {
+    "cached_nodes_measurement": [
+      "13",
+      "459:451",
+      "459:452",
+      "459:453",
+      "459:454",
+      "459:456"
+    ],
+    "measurement_seed": 44,
+    "resolution": [
+      1024,
+      1024
+    ],
+    "steps": 25,
+    "warmup_seed": 43
+  },
+  "result": {
+    "candidate_calls_total": 1664,
+    "fallback_calls": 0,
+    "ksampler_ms": 23680.349649,
+    "output_sha256": "8f682a38ab5e0aaf7251c4b25bc2e773b61fc89737e072272b759d20e07a9b70",
+    "wall_ms": 25064.687212
+  },
+  "schema": "qwen-image-2.1-rocm.reproduction.v1",
+  "software": {
+    "comfy_kitchen": "0.2.35",
+    "comfyui_commit": "d158420950922dde49dad1fa87fa549735fd5137",
+    "extension_sha256": "0328285d26d04786c0e72a463db5952bf8c9f9aab4544d88d71ce595fc45560d",
+    "hip": "7.2.53211",
+    "modelscope": "1.40.1",
+    "torch_metadata": "2.10.0+rocm7.2.4.lw.git3d3aa833",
+    "torch_runtime": "2.10.0+rocm7.2.4.git3d3aa833",
+    "transformers": "5.17.0"
+  }
+}

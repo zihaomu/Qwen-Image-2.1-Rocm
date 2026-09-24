@@ -1,0 +1,11 @@
+.git
+.gitignore
+dist
+runtime
+output
+models/**/*.safetensors
+benchmarks
+vendor/cmake-*.whl
+vendor/comfy-kitchen-*.tar.gz
+vendor/nanobind-*.whl
+doc

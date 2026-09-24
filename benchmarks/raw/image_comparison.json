@@ -1,0 +1,57 @@
+{
+  "IMAGE_AB": "PASS",
+  "candidate": {
+    "array_shape": [
+      1024,
+      1024,
+      4
+    ],
+    "bytes": 2224889,
+    "finite": true,
+    "format": "PNG",
+    "mode": "RGBA",
+    "non_single_color": true,
+    "path": "/inputs/candidate.png",
+    "sha256": "0b4ef0e9cc184f29e60fad6747c2aaf713e60dff34f1195c5683c4a89c31d902",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  "gate": "PASS",
+  "generatedUTC": "2026-09-23T12:33:33.410245+00:00",
+  "metrics": {
+    "cosine": 0.9940787057610269,
+    "identical_pixels_fraction": 0.13433361053466797,
+    "mae": 4.910419782002767,
+    "max_abs": 255.0,
+    "psnr": 24.923441882764507,
+    "rmse": 14.466653725549444
+  },
+  "reference": {
+    "array_shape": [
+      1024,
+      1024,
+      4
+    ],
+    "bytes": 2239948,
+    "finite": true,
+    "format": "PNG",
+    "mode": "RGBA",
+    "non_single_color": true,
+    "path": "/inputs/reference.png",
+    "sha256": "e370c74216e58aefc683bf295637c9bcaff59b1764b87679614d5519e41b036d",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  "schema": "image_comparison.v1",
+  "shape_1024x1024": true,
+  "valid_image": true,
+  "verification": {
+    "finite": false,
+    "non_single_color": null,
+    "pillow_verify": false
+  }
+}

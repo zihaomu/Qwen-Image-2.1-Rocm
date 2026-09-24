@@ -1,0 +1,16 @@
+{
+  "cached_nodes": [
+    "13",
+    "459:451",
+    "459:452",
+    "459:453",
+    "459:454",
+    "459:456"
+  ],
+  "candidate_calls": 1664,
+  "fallback_calls": 0,
+  "ksampler_ms": 23742.350545,
+  "method": "same live container, controlled restart, seed 43 cold warmup, seed 44 warm measurement",
+  "schema": "qwen-image-2.1-rocm.repeat.v1",
+  "wall_ms": 25196.804631
+}

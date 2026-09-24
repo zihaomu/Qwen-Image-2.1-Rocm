@@ -1,0 +1,16 @@
+{
+  "cosine": 0.9999999999999999,
+  "exact_rgba_values": true,
+  "identical_values_fraction": 1.0,
+  "mae": 0.0,
+  "psnr": "infinity",
+  "reference": "benchmarks/images/candidate_seed44.png",
+  "reproduced": "benchmarks/reproduced/measure-seed44.png",
+  "rmse": 0.0,
+  "schema": "reproduction_image_comparison.v1",
+  "shape": [
+    1024,
+    1024,
+    4
+  ]
+}

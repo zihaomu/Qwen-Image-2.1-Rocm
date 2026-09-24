@@ -1,0 +1,14 @@
+{
+  "exact_rgba_values": true,
+  "identical_values_fraction": 1.0,
+  "mae": 0.0,
+  "psnr": "infinity",
+  "repeat_png_sha256": "8f682a38ab5e0aaf7251c4b25bc2e773b61fc89737e072272b759d20e07a9b70",
+  "rmse": 0.0,
+  "schema": "repeat_image_comparison.v1",
+  "shape": [
+    1024,
+    1024,
+    4
+  ]
+}

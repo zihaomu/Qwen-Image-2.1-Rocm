@@ -1,0 +1,16 @@
+{
+  "architecture": "amd64",
+  "archive": "dist/qwen-image-2.1-rocm-w7900d-fast.tar",
+  "archive_sha256": "243d60e64108ccaec239f1a2ab4fde9adde76c48b658c6068abe830ba482e3a1",
+  "archive_sha256_file": "dist/qwen-image-2.1-rocm-w7900d-fast.tar.sha256",
+  "archive_size_bytes": 11131628544,
+  "base_digest": "sha256:4449f856653602317e4101a76fce599c7fcd58ccec2e539951fce5f73083179e",
+  "created": "2026-09-24T15:56:50.35470739+08:00",
+  "extension_sha256": "0328285d26d04786c0e72a463db5952bf8c9f9aab4544d88d71ce595fc45560d",
+  "image_id": "sha256:3698286daa306924b4fbbc2e0e896355841cadf8e8fe17fab835f99663ab1018",
+  "os": "linux",
+  "repo_digest": "qwen-image-2.1-rocm@sha256:3698286daa306924b4fbbc2e0e896355841cadf8e8fe17fab835f99663ab1018",
+  "schema_version": 1,
+  "size_bytes": 11131598624,
+  "tag": "qwen-image-2.1-rocm:w7900d-fast"
+}

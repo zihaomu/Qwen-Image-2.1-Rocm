@@ -1,0 +1,276 @@
+{
+  "binary_frames": {
+    "bytes": 0,
+    "count": 0
+  },
+  "cached_nodes": [],
+  "end": "2026-09-24T08:10:29.294604Z",
+  "error": null,
+  "events": [
+    {
+      "time_ns": 5260973,
+      "type": "execution_start"
+    },
+    {
+      "time_ns": 6531755,
+      "type": "execution_cached"
+    },
+    {
+      "time_ns": 7264729,
+      "type": "executing"
+    },
+    {
+      "time_ns": 338822063,
+      "type": "executing"
+    },
+    {
+      "time_ns": 687479727,
+      "type": "executing"
+    },
+    {
+      "time_ns": 9536888909,
+      "type": "executing"
+    },
+    {
+      "time_ns": 9560267214,
+      "type": "executing"
+    },
+    {
+      "time_ns": 9563509042,
+      "type": "executing"
+    },
+    {
+      "time_ns": 9569603519,
+      "type": "executing"
+    },
+    {
+      "time_ns": 13632759455,
+      "type": "progress"
+    },
+    {
+      "time_ns": 14610891903,
+      "type": "progress"
+    },
+    {
+      "time_ns": 15548604446,
+      "type": "progress"
+    },
+    {
+      "time_ns": 16488271294,
+      "type": "progress"
+    },
+    {
+      "time_ns": 17437156718,
+      "type": "progress"
+    },
+    {
+      "time_ns": 18373874327,
+      "type": "progress"
+    },
+    {
+      "time_ns": 19311552020,
+      "type": "progress"
+    },
+    {
+      "time_ns": 20265306940,
+      "type": "progress"
+    },
+    {
+      "time_ns": 21204626942,
+      "type": "progress"
+    },
+    {
+      "time_ns": 22141658920,
+      "type": "progress"
+    },
+    {
+      "time_ns": 23087283277,
+      "type": "progress"
+    },
+    {
+      "time_ns": 24023239673,
+      "type": "progress"
+    },
+    {
+      "time_ns": 24961015485,
+      "type": "progress"
+    },
+    {
+      "time_ns": 25901210751,
+      "type": "progress"
+    },
+    {
+      "time_ns": 26836482482,
+      "type": "progress"
+    },
+    {
+      "time_ns": 27774763291,
+      "type": "progress"
+    },
+    {
+      "time_ns": 28713181250,
+      "type": "progress"
+    },
+    {
+      "time_ns": 29652271974,
+      "type": "progress"
+    },
+    {
+      "time_ns": 30599342242,
+      "type": "progress"
+    },
+    {
+      "time_ns": 31540894949,
+      "type": "progress"
+    },
+    {
+      "time_ns": 32478641563,
+      "type": "progress"
+    },
+    {
+      "time_ns": 33422754352,
+      "type": "progress"
+    },
+    {
+      "time_ns": 34367659436,
+      "type": "progress"
+    },
+    {
+      "time_ns": 35308555858,
+      "type": "progress"
+    },
+    {
+      "time_ns": 36246659450,
+      "type": "progress"
+    },
+    {
+      "time_ns": 37167045426,
+      "type": "executing"
+    },
+    {
+      "time_ns": 38667820123,
+      "type": "executing"
+    },
+    {
+      "time_ns": 38923494770,
+      "type": "executed"
+    },
+    {
+      "time_ns": 38924031976,
+      "type": "execution_success"
+    }
+  ],
+  "history_status": {
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "7a85b9eb-791e-41d4-aa08-73ca0df0b493",
+          "timestamp": 1790237390050
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "7a85b9eb-791e-41d4-aa08-73ca0df0b493",
+          "timestamp": 1790237390052
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "7a85b9eb-791e-41d4-aa08-73ca0df0b493",
+          "timestamp": 1790237428970
+        }
+      ]
+    ],
+    "status_str": "success"
+  },
+  "metadata": {
+    "prompt_suffix_length": 0,
+    "warmup": true
+  },
+  "new_prompt_id": "7a85b9eb-791e-41d4-aa08-73ca0df0b493",
+  "node_intervals": [
+    {
+      "class_type": "VAELoader",
+      "duration_ms": 331.557334,
+      "end_ns": 1743327468448464,
+      "node": "459:454"
+    },
+    {
+      "class_type": "CLIPLoader",
+      "duration_ms": 348.657664,
+      "end_ns": 1743327817106128,
+      "node": "459:453"
+    },
+    {
+      "class_type": "TextEncodeQwenImage21",
+      "duration_ms": 8849.409182,
+      "end_ns": 1743336666515310,
+      "node": "459:452"
+    },
+    {
+      "class_type": "UNETLoader",
+      "duration_ms": 23.378305,
+      "end_ns": 1743336689893615,
+      "node": "459:451"
+    },
+    {
+      "class_type": "ResolutionSelector",
+      "duration_ms": 3.241828,
+      "end_ns": 1743336693135443,
+      "node": "13"
+    },
+    {
+      "class_type": "EmptyLatentImage",
+      "duration_ms": 6.094477,
+      "end_ns": 1743336699229920,
+      "node": "459:456"
+    },
+    {
+      "class_type": "KSampler",
+      "duration_ms": 27597.441907,
+      "end_ns": 1743364296671827,
+      "node": "459:458"
+    },
+    {
+      "class_type": "VAEDecode",
+      "duration_ms": 1500.774697,
+      "end_ns": 1743365797446524,
+      "node": "459:457"
+    },
+    {
+      "class_type": "SaveImageAdvanced",
+      "duration_ms": 256.218973,
+      "end_ns": 1743366053665497,
+      "node": "461"
+    }
+  ],
+  "outputs": [
+    "warm-seed43_00002.png"
+  ],
+  "prefix": "qwen_image_2_1_rocm_fast/warm-seed43",
+  "progress_summary": {
+    "first": [
+      1,
+      25
+    ],
+    "last": [
+      25,
+      25
+    ],
+    "node": "459:458",
+    "per_step_intervals_ms_median": 939.205363,
+    "per_step_intervals_ms_p95": 953.0244955999999,
+    "samples": 25
+  },
+  "schema_version": 1,
+  "seed": 43,
+  "source_graph_file": "/opt/qwen/workflows/qwen_image_2_1_t2i_api.json",
+  "source_prompt_id": null,
+  "start": "2026-09-24T08:09:50.046898Z",
+  "wall_ms": 39247.712057
+}

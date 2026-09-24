@@ -1,0 +1,61 @@
+{
+  "devices": [
+    {
+      "index": 0,
+      "name": "cuda:0 AMD Radeon Graphics : native",
+      "torch_vram_free": 76616192,
+      "torch_vram_total": 17460887552,
+      "type": "cuda",
+      "vram_free": 33547162112,
+      "vram_total": 51522830336
+    }
+  ],
+  "system": {
+    "argv": [
+      "main.py",
+      "--listen",
+      "0.0.0.0",
+      "--port",
+      "8188",
+      "--disable-auto-launch"
+    ],
+    "comfy_package_versions": [
+      {
+        "installed": "1.53.6",
+        "name": "comfyui-frontend-package",
+        "required": "1.53.6"
+      },
+      {
+        "installed": "0.11.66",
+        "name": "comfyui-workflow-templates",
+        "required": "0.11.66"
+      },
+      {
+        "installed": "0.5.12",
+        "name": "comfyui-embedded-docs",
+        "required": "0.5.12"
+      },
+      {
+        "installed": "0.2.35",
+        "name": "comfy-kitchen",
+        "required": "0.2.35"
+      },
+      {
+        "installed": "0.5.5",
+        "name": "comfy-aimdo",
+        "required": "0.5.5"
+      }
+    ],
+    "comfyui_version": "0.37.0",
+    "deploy_environment": "local-git",
+    "embedded_python": false,
+    "installed_templates_version": "0.11.66",
+    "os": "linux",
+    "python_version": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "pytorch_version": "2.10.0+rocm7.2.4.git3d3aa833",
+    "ram_free": 374979874816,
+    "ram_total": 540696387584,
+    "required_frontend_version": "1.53.6",
+    "required_templates_version": "0.11.66"
+  }
+}

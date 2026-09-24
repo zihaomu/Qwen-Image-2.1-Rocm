@@ -1,0 +1,15 @@
+models/*
+!models/.gitkeep
+!models/manifest.json
+output/*
+runtime/*
+dist/*
+!output/.gitkeep
+!runtime/.gitkeep
+!dist/.gitkeep
+__pycache__/
+*.pyc
+*.tmp
+
+# Pre-existing local screenshot, not part of this project.
+/doc/chrome_HLNmgdrCSb.jpg

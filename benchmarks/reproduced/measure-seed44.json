@@ -1,0 +1,230 @@
+{
+  "binary_frames": {
+    "bytes": 0,
+    "count": 0
+  },
+  "cached_nodes": [
+    "13",
+    "459:451",
+    "459:452",
+    "459:453",
+    "459:454",
+    "459:456"
+  ],
+  "end": "2026-09-24T08:00:23.842040Z",
+  "error": null,
+  "events": [
+    {
+      "time_ns": 5133533,
+      "type": "execution_start"
+    },
+    {
+      "time_ns": 5188813,
+      "type": "execution_cached"
+    },
+    {
+      "time_ns": 5223753,
+      "type": "executing"
+    },
+    {
+      "time_ns": 114668449,
+      "type": "progress"
+    },
+    {
+      "time_ns": 1090521923,
+      "type": "progress"
+    },
+    {
+      "time_ns": 2029804528,
+      "type": "progress"
+    },
+    {
+      "time_ns": 2970493544,
+      "type": "progress"
+    },
+    {
+      "time_ns": 3910690004,
+      "type": "progress"
+    },
+    {
+      "time_ns": 4851497150,
+      "type": "progress"
+    },
+    {
+      "time_ns": 5792024428,
+      "type": "progress"
+    },
+    {
+      "time_ns": 6749575535,
+      "type": "progress"
+    },
+    {
+      "time_ns": 7689708586,
+      "type": "progress"
+    },
+    {
+      "time_ns": 8630375005,
+      "type": "progress"
+    },
+    {
+      "time_ns": 9570944864,
+      "type": "progress"
+    },
+    {
+      "time_ns": 10511541593,
+      "type": "progress"
+    },
+    {
+      "time_ns": 11451505128,
+      "type": "progress"
+    },
+    {
+      "time_ns": 12405873189,
+      "type": "progress"
+    },
+    {
+      "time_ns": 13344832702,
+      "type": "progress"
+    },
+    {
+      "time_ns": 14285822990,
+      "type": "progress"
+    },
+    {
+      "time_ns": 15225386948,
+      "type": "progress"
+    },
+    {
+      "time_ns": 16164997037,
+      "type": "progress"
+    },
+    {
+      "time_ns": 17105244301,
+      "type": "progress"
+    },
+    {
+      "time_ns": 18045302467,
+      "type": "progress"
+    },
+    {
+      "time_ns": 18986053829,
+      "type": "progress"
+    },
+    {
+      "time_ns": 19956943065,
+      "type": "progress"
+    },
+    {
+      "time_ns": 20897215571,
+      "type": "progress"
+    },
+    {
+      "time_ns": 21837481197,
+      "type": "progress"
+    },
+    {
+      "time_ns": 22777296357,
+      "type": "progress"
+    },
+    {
+      "time_ns": 23685573402,
+      "type": "executing"
+    },
+    {
+      "time_ns": 24572041794,
+      "type": "executing"
+    },
+    {
+      "time_ns": 24826408445,
+      "type": "executed"
+    },
+    {
+      "time_ns": 24826725433,
+      "type": "execution_success"
+    }
+  ],
+  "history_status": {
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "baa840c2-a071-49ec-9f25-c7443601667f",
+          "timestamp": 1790236798780
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "13",
+            "459:451",
+            "459:452",
+            "459:453",
+            "459:454",
+            "459:456"
+          ],
+          "prompt_id": "baa840c2-a071-49ec-9f25-c7443601667f",
+          "timestamp": 1790236798781
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "baa840c2-a071-49ec-9f25-c7443601667f",
+          "timestamp": 1790236823603
+        }
+      ]
+    ],
+    "status_str": "success"
+  },
+  "metadata": {
+    "prompt_suffix_length": 0,
+    "warmup": false
+  },
+  "new_prompt_id": "baa840c2-a071-49ec-9f25-c7443601667f",
+  "node_intervals": [
+    {
+      "class_type": "KSampler",
+      "duration_ms": 23680.349649,
+      "end_ns": 1742759545659610,
+      "node": "459:458"
+    },
+    {
+      "class_type": "VAEDecode",
+      "duration_ms": 886.468392,
+      "end_ns": 1742760432128002,
+      "node": "459:457"
+    },
+    {
+      "class_type": "SaveImageAdvanced",
+      "duration_ms": 254.690279,
+      "end_ns": 1742760686818281,
+      "node": "461"
+    }
+  ],
+  "outputs": [
+    "measure-seed44_00001.png"
+  ],
+  "prefix": "qwen_image_2_1_rocm_fast/measure-seed44",
+  "progress_summary": {
+    "first": [
+      1,
+      25
+    ],
+    "last": [
+      25,
+      25
+    ],
+    "node": "459:458",
+    "per_step_intervals_ms_median": 940.399892,
+    "per_step_intervals_ms_p95": 968.8885166499999,
+    "samples": 25
+  },
+  "schema_version": 1,
+  "seed": 44,
+  "source_graph_file": "/opt/qwen/workflows/qwen_image_2_1_t2i_api.json",
+  "source_prompt_id": null,
+  "start": "2026-09-24T07:59:58.777357Z",
+  "wall_ms": 25064.687212
+}

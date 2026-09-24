@@ -1,0 +1,25 @@
+{
+  "capabilities": {
+    "available": true,
+    "dtypes": [
+      "torch.bfloat16",
+      "torch.float16",
+      "torch.float32"
+    ],
+    "gqa": true,
+    "mask": [
+      "bool",
+      "float16",
+      "bfloat16",
+      "float32"
+    ],
+    "max_head_dim": 256,
+    "min_auto_query_tokens": 512,
+    "odd_lengths": true
+  },
+  "configured": true,
+  "mode": "reference",
+  "stats": {
+    "reference:selected": 832
+  }
+}

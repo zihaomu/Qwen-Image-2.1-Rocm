@@ -1,0 +1,9 @@
+{
+  "candidate_calls_total": 1664,
+  "fallback_calls": 0,
+  "ksampler_ms": 23680.349649,
+  "outputs": [
+    "measure-seed44_00001.png"
+  ],
+  "wall_ms": 25064.687212
+}
