@@ -1,5 +1,7 @@
 # Qwen-Image-2.1 ROCm Fast Path
 
+![Qwen-Image-2.1 ROCm Fast Path on AMD Radeon PRO W7900D](doc/chrome_HLNmgdrCSb.jpg)
+
 Qwen-Image-2.1 text-to-image workflow for AMD Radeon PRO W7900D (`gfx1100`), packaged as a standalone ComfyUI image. This repository keeps only the fastest validated implementation: INT8 attention plus fused RMSNorm/RoPE in a pinned comfy-kitchen HIP extension, with a ComfyUI dispatcher that always selects the candidate attention path for supported calls.
 
 On one W7900D, the isolated warm seed-44 run improved from **32.718921 s to 24.981790 s** end to end (`1.30971x`). KSampler improved from **31.302260 s to 23.600188 s** (`1.32636x`). See [benchmarks/W7900D.md](benchmarks/W7900D.md) for scope and correctness evidence.

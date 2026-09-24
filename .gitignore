@@ -10,6 +10,3 @@ dist/*
 __pycache__/
 *.pyc
 *.tmp
-
-# Pre-existing local screenshot, not part of this project.
-/doc/chrome_HLNmgdrCSb.jpg

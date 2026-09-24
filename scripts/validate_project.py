@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 EXPECTED = {
+    "doc/chrome_HLNmgdrCSb.jpg": "36448a3d37ceecdeaef0383c74eed19c6475d4bfe80680ef7cf759bfd5688299",
     "artifacts/comfy_kitchen_gfx1100.so": "0328285d26d04786c0e72a463db5952bf8c9f9aab4544d88d71ce595fc45560d",
     "kernels/int8_attn.hip": "48ec2e4202f26dfb2870c2e0a3686a72271fdc937098d59edf9d24df499a1da1",
     "kernels/rms_rope.hip": "bc803be1d6e14c949a8539b3081e362d8ef5281cc02ce13b25ad6d7c15e5d9a1",
